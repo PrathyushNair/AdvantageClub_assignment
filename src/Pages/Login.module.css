@@ -7,42 +7,27 @@
   margin-top: 5%;
 }
 
-.loginContainer input {
-  margin-top: 5%;
-  border: 1px solid #3b8f9d;
-  width: 40%;
-  text-align: center;
-}
 .loginContainer > button {
   border-radius: 10px;
-  width: 20%;
+  width: 30%;
+  height:30px;
   margin: auto;
+  text-align: center;
   background-color: #3b8f9d;
   color: white;
   margin-top: 5%;
 }
 
-@media all and (min-width: 400px) and (max-width: 800px) {
+ @media all and (min-width: 400px) and (max-width: 800px) {
   .loginContainer {
     width: 60%;
   }
-  .loginContainer input {
-    width: 60%;
-    text-align: center;
-  }
-  .loginContainer > button {
-    width: 40%;
-  }
+  
 }
 
-@media all and (min-width: 100px) and (max-width: 400px) {
+ @media all and (min-width: 100px) and (max-width: 400px) {
   .loginContainer {
     width: 80%;
   }
-  .loginContainer input {
-    width: 60%;
-  }
-  .loginContainer > button {
-    width: 40%;
-  }
-}
+ 
+} 
