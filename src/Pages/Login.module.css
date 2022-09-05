@@ -1,0 +1,48 @@
+.loginContainer {
+  display: block;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+  width: 40%;
+  margin: auto;
+  line-height: 50px;
+  margin-top: 5%;
+}
+
+.loginContainer input {
+  margin-top: 5%;
+  border: 1px solid #3b8f9d;
+  width: 40%;
+  text-align: center;
+}
+.loginContainer > button {
+  border-radius: 10px;
+  width: 20%;
+  margin: auto;
+  background-color: #3b8f9d;
+  color: white;
+  margin-top: 5%;
+}
+
+@media all and (min-width: 400px) and (max-width: 800px) {
+  .loginContainer {
+    width: 60%;
+  }
+  .loginContainer input {
+    width: 60%;
+    text-align: center;
+  }
+  .loginContainer > button {
+    width: 40%;
+  }
+}
+
+@media all and (min-width: 100px) and (max-width: 400px) {
+  .loginContainer {
+    width: 80%;
+  }
+  .loginContainer input {
+    width: 60%;
+  }
+  .loginContainer > button {
+    width: 40%;
+  }
+}
