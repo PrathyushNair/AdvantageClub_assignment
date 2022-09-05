@@ -13,3 +13,5 @@ User Credentials for testing
 
 email: advantageclub@test.com
 password: advantageclub
+
+TECH STACK used: React, Redux, Chakra-UI
